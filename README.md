@@ -27,7 +27,7 @@ A one-day Vanilla JavaScript speed-run portfolio. **Implemented is not the same 
 
 ## Projects
 
-- [ ] [Project 01: Greeting Builder](projects/greeting-builder/index.html) — implemented starter, not reviewed
+- [ ] [Project 01: Greeting Builder](projects/01.greeting-builder/index.html) — implemented starter, not reviewed
 - [ ] [Project 02: Temperature Converter](projects/temperature-converter/index.html) — implemented starter, not reviewed
 - [ ] [Project 03: Tip Calculator](projects/tip-calculator/index.html) — implemented starter, not reviewed
 - [ ] [Project 04: Counter](projects/counter/index.html) — implemented starter, not reviewed

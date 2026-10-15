@@ -9,7 +9,7 @@ function createGreeting(name) {
     const upperFirstLetter = cleanedName.charAt(0).toUpperCase() + cleanedName.slice(1).toLowerCase();
 
     //Cách 3
-    const titleCaseWord = cleanedName.replace(/^w/, c => c.toUpperCase())
+    const titleCaseWord = cleanedName.replace(/^\w/, c => c.toUpperCase())
 
     if (upperFirstLetter === "") {
         return "Please enter your name.";
@@ -20,7 +20,7 @@ function createGreeting(name) {
 
 //Cách 2
 function titleCase(str) {
-    return str.toLowerCase().split(' ').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join();
+    return str.toLowerCase().split(' ').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
 }
 
 form.addEventListener("submit", function (event) {
