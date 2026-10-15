@@ -1,0 +1,7 @@
+{
+  "name": "javascript-foundations-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test", "serve": "npx --yes http-server . -p 8080"},
+  "engines": {"node": ">=20"}
+}
